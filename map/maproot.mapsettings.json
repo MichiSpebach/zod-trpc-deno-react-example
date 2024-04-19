@@ -1,0 +1,363 @@
+{
+	"id": "u4ej69r19mo",
+	"x": 0,
+	"y": 0,
+	"width": 100,
+	"height": 100,
+	"links": [
+		{
+			"id": "linksfspe70b00o",
+			"from": {
+				"path": [
+					{
+						"boxId": "51u27jsd8lo",
+						"boxName": "scripts",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "qmnu58bc9f",
+						"boxName": "greetAll.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 74,
+						"y": 26
+					},
+					{
+						"boxId": "5e1v3demdbo",
+						"boxName": "server.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"http"
+			]
+		},
+		{
+			"id": "link0r2odhj8j9",
+			"from": {
+				"path": [
+					{
+						"boxId": "3bcn1n5jle8",
+						"boxName": "Exercises.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "51u27jsd8lo",
+						"boxName": "scripts",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "qmnu58bc9f",
+						"boxName": "greetAll.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "linkd7ea4ch90a8",
+			"from": {
+				"path": [
+					{
+						"boxId": "3bcn1n5jle8",
+						"boxName": "Exercises.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 26,
+						"y": 26
+					},
+					{
+						"boxId": "4mjgk4i7i7",
+						"boxName": "main.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"documentation"
+			]
+		},
+		{
+			"id": "linkvchqohjt1tg",
+			"from": {
+				"path": [
+					{
+						"boxId": "3bcn1n5jle8",
+						"boxName": "Exercises.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 74,
+						"y": 26
+					},
+					{
+						"boxId": "5e1v3demdbo",
+						"boxName": "server.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"documentation"
+			]
+		},
+		{
+			"id": "linkt5e7gabkb3",
+			"from": {
+				"path": [
+					{
+						"boxId": "3bcn1n5jle8",
+						"boxName": "Exercises.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "51u27jsd8lo",
+						"boxName": "scripts",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "qmnu58bc9f",
+						"boxName": "greetAll.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"documentation"
+			]
+		},
+		{
+			"id": "link029rr2ki9ug",
+			"from": {
+				"path": [
+					{
+						"boxId": "as7mnam7lrg",
+						"boxName": "README.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "3bcn1n5jle8",
+						"boxName": "Exercises.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"documentation"
+			]
+		},
+		{
+			"id": "linkesvln27v97",
+			"from": {
+				"path": [
+					{
+						"boxId": "as7mnam7lrg",
+						"boxName": "README.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "51u27jsd8lo",
+						"boxName": "scripts",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "qmnu58bc9f",
+						"boxName": "greetAll.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"documentation"
+			]
+		},
+		{
+			"id": "linkmf9hmgi1bl",
+			"from": {
+				"path": [
+					{
+						"boxId": "as7mnam7lrg",
+						"boxName": "README.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"falsePositive"
+			]
+		},
+		{
+			"id": "linkhcesfub26hg",
+			"from": {
+				"path": [
+					{
+						"boxId": "as7mnam7lrg",
+						"boxName": "README.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 26,
+						"y": 26
+					},
+					{
+						"boxId": "4mjgk4i7i7",
+						"boxName": "main.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "linkhuk79pol5l",
+			"from": {
+				"path": [
+					{
+						"boxId": "as7mnam7lrg",
+						"boxName": "README.md",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 26,
+						"y": 26
+					},
+					{
+						"boxId": "4mjgk4i7i7",
+						"boxName": "main.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"documentation"
+			]
+		}
+	],
+	"nodes": [],
+	"srcRootPath": "../",
+	"mapRootPath": "./",
+	"linkTags": [
+		{
+			"name": "autoMaintained",
+			"count": 11,
+			"appearance": {}
+		},
+		{
+			"name": "falsePositive",
+			"count": 1,
+			"appearance": {
+				"mode": "notRendered"
+			}
+		},
+		{
+			"name": "documentation",
+			"count": 6,
+			"appearance": {
+				"color": "purple"
+			}
+		},
+		{
+			"name": "http",
+			"count": 1,
+			"appearance": {
+				"color": "magenta"
+			}
+		}
+	],
+	"defaultLinkAppearance": {}
+}
