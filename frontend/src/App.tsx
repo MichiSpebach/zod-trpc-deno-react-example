@@ -2,8 +2,7 @@ import { DefaultError, Mutation, MutationCache, QueryCache, QueryClient, QueryCl
 import { httpBatchLink } from '@trpc/client'
 import { useState } from 'react';
 import { trpc } from './utils/trpc'
-import PersonList from './PersonList';
-import PersonForm from './PersonForm';
+import PersonForm from './PersonComponent';
 
 export function App() {
 	const [queryClient] = useState(() => new QueryClient({

@@ -13,7 +13,7 @@
 						"boxId": "51u27jsd8lo",
 						"boxName": "scripts",
 						"x": 50,
-						"y": 52
+						"y": 70
 					},
 					{
 						"boxId": "qmnu58bc9f",
@@ -42,164 +42,6 @@
 			"tags": [
 				"autoMaintained",
 				"http"
-			]
-		},
-		{
-			"id": "link0r2odhj8j9",
-			"from": {
-				"path": [
-					{
-						"boxId": "3bcn1n5jle8",
-						"boxName": "Exercises.md",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"to": {
-				"path": [
-					{
-						"boxId": "51u27jsd8lo",
-						"boxName": "scripts",
-						"x": 50,
-						"y": 52
-					},
-					{
-						"boxId": "qmnu58bc9f",
-						"boxName": "greetAll.ts",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"tags": [
-				"autoMaintained"
-			]
-		},
-		{
-			"id": "linkd7ea4ch90a8",
-			"from": {
-				"path": [
-					{
-						"boxId": "3bcn1n5jle8",
-						"boxName": "Exercises.md",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"to": {
-				"path": [
-					{
-						"boxId": "18qf3fumeog",
-						"boxName": "backend",
-						"x": 26,
-						"y": 26
-					},
-					{
-						"boxId": "4mjgk4i7i7",
-						"boxName": "main.ts",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"tags": [
-				"autoMaintained",
-				"documentation"
-			]
-		},
-		{
-			"id": "linkvchqohjt1tg",
-			"from": {
-				"path": [
-					{
-						"boxId": "3bcn1n5jle8",
-						"boxName": "Exercises.md",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"to": {
-				"path": [
-					{
-						"boxId": "18qf3fumeog",
-						"boxName": "backend",
-						"x": 74,
-						"y": 26
-					},
-					{
-						"boxId": "5e1v3demdbo",
-						"boxName": "server.ts",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"tags": [
-				"autoMaintained",
-				"documentation"
-			]
-		},
-		{
-			"id": "linkt5e7gabkb3",
-			"from": {
-				"path": [
-					{
-						"boxId": "3bcn1n5jle8",
-						"boxName": "Exercises.md",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"to": {
-				"path": [
-					{
-						"boxId": "51u27jsd8lo",
-						"boxName": "scripts",
-						"x": 50,
-						"y": 52
-					},
-					{
-						"boxId": "qmnu58bc9f",
-						"boxName": "greetAll.ts",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"tags": [
-				"autoMaintained",
-				"documentation"
-			]
-		},
-		{
-			"id": "link029rr2ki9ug",
-			"from": {
-				"path": [
-					{
-						"boxId": "as7mnam7lrg",
-						"boxName": "README.md",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"to": {
-				"path": [
-					{
-						"boxId": "3bcn1n5jle8",
-						"boxName": "Exercises.md",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"tags": [
-				"autoMaintained",
-				"documentation"
 			]
 		},
 		{
@@ -326,6 +168,107 @@
 				"autoMaintained",
 				"documentation"
 			]
+		},
+		{
+			"id": "linkl7v67kgep2g",
+			"from": {
+				"path": [
+					{
+						"boxId": "k0hevj5t2e",
+						"boxName": "frontend",
+						"x": 53.68,
+						"y": 76.032
+					},
+					{
+						"boxId": "sctglon8joo",
+						"boxName": "src",
+						"x": 54,
+						"y": 58.4
+					},
+					{
+						"boxId": "81dmr3sflto",
+						"boxName": "utils",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "r3q90f0jqg8",
+						"boxName": "trpc.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 74,
+						"y": 46
+					},
+					{
+						"boxId": "5e1v3demdbo",
+						"boxName": "server.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"http"
+			]
+		},
+		{
+			"id": "linkpkk50kmfo8",
+			"from": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 70,
+						"y": 30
+					},
+					{
+						"boxId": "5e1v3demdbo",
+						"boxName": "server.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "k0hevj5t2e",
+						"boxName": "frontend",
+						"x": 81.28,
+						"y": 87.667
+					},
+					{
+						"boxId": "sctglon8joo",
+						"boxName": "src",
+						"x": 84,
+						"y": 82.64
+					},
+					{
+						"boxId": "ppu7ai60mfg",
+						"boxName": "common",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "a9osetffo1g",
+						"boxName": "Person.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
 		}
 	],
 	"nodes": [],
@@ -334,12 +277,12 @@
 	"linkTags": [
 		{
 			"name": "autoMaintained",
-			"count": 11,
+			"count": 15,
 			"appearance": {}
 		},
 		{
 			"name": "falsePositive",
-			"count": 1,
+			"count": 2,
 			"appearance": {
 				"mode": "notRendered"
 			}
@@ -353,7 +296,7 @@
 		},
 		{
 			"name": "http",
-			"count": 1,
+			"count": 2,
 			"appearance": {
 				"color": "magenta"
 			}

@@ -1,5 +1,5 @@
 {
-    "imports": {
-        "zod": "npm:zod"
-    }
+	"imports": {
+		"zod": "npm:zod"
+	}
 }

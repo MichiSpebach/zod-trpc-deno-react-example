@@ -1,0 +1,234 @@
+{
+	"id": "sctglon8joo",
+	"x": 8,
+	"y": 48,
+	"width": 84,
+	"height": 48,
+	"links": [
+		{
+			"id": "linkhtf0ugq7dfg",
+			"from": {
+				"path": [
+					{
+						"boxId": "25d37526qs8",
+						"boxName": "App.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "7a0e1i4mucg",
+						"boxName": "PersonComponent.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "linktlrsfnrg5s8",
+			"from": {
+				"path": [
+					{
+						"boxId": "iu17j9vm92o",
+						"boxName": "index.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "h82glai68ug",
+						"boxName": "index.css",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "linki3869b8cbp",
+			"from": {
+				"path": [
+					{
+						"boxId": "iu17j9vm92o",
+						"boxName": "index.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "fd32k968mlo",
+						"boxName": "App.css",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"falsePositive"
+			]
+		},
+		{
+			"id": "linknis8fjmiu8",
+			"from": {
+				"path": [
+					{
+						"boxId": "iu17j9vm92o",
+						"boxName": "index.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "b2rk98m50o8",
+						"boxName": "reportWebVitals.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "linkn5aq4114jd",
+			"from": {
+				"path": [
+					{
+						"boxId": "7a0e1i4mucg",
+						"boxName": "PersonComponent.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "ppu7ai60mfg",
+						"boxName": "common",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "a9osetffo1g",
+						"boxName": "Person.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "link4uvbbe6n2q8",
+			"from": {
+				"path": [
+					{
+						"boxId": "25d37526qs8",
+						"boxName": "App.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "81dmr3sflto",
+						"boxName": "utils",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "r3q90f0jqg8",
+						"boxName": "trpc.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "link5n80vivcgi8",
+			"from": {
+				"path": [
+					{
+						"boxId": "7a0e1i4mucg",
+						"boxName": "PersonComponent.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "81dmr3sflto",
+						"boxName": "utils",
+						"x": 50,
+						"y": 52
+					},
+					{
+						"boxId": "r3q90f0jqg8",
+						"boxName": "trpc.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained"
+			]
+		},
+		{
+			"id": "m63vu15k1bo",
+			"from": {
+				"path": [
+					{
+						"boxId": "iu17j9vm92o",
+						"boxName": "index.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "25d37526qs8",
+						"boxName": "App.tsx",
+						"x": 50,
+						"y": 50
+					}
+				]
+			}
+		}
+	],
+	"nodes": []
+}

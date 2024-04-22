@@ -2,7 +2,7 @@ import { initTRPC } from 'npm:@trpc/server'
 import { createHTTPServer } from 'npm:@trpc/server@^10.45/adapters/standalone'
 import cors from 'npm:cors@^2.8'
 import { z as zod } from 'npm:zod'
-import { Person } from '../frontend/src/common/Person.ts';
+import { Person } from '../frontend/src/common/Person.ts'
 
 const trpc = initTRPC.create()
 
