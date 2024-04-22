@@ -85,32 +85,6 @@
 			]
 		},
 		{
-			"id": "linknis8fjmiu8",
-			"from": {
-				"path": [
-					{
-						"boxId": "iu17j9vm92o",
-						"boxName": "index.tsx",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"to": {
-				"path": [
-					{
-						"boxId": "b2rk98m50o8",
-						"boxName": "reportWebVitals.ts",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"tags": [
-				"autoMaintained"
-			]
-		},
-		{
 			"id": "linkn5aq4114jd",
 			"from": {
 				"path": [
