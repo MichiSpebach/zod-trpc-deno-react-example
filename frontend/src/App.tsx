@@ -1,7 +1,7 @@
 import { DefaultError, Mutation, MutationCache, QueryCache, QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { httpBatchLink } from '@trpc/client'
 import { useState } from 'react';
-import { trpc } from './utils/trpc'
+import { trpcClient as trpc } from './trpcClient'
 import PersonForm from './PersonComponent';
 
 export function App() {

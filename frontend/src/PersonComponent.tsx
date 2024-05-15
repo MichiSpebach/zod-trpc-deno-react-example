@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import { trpc } from './utils/trpc'
+import { trpcClient } from './trpcClient'
 import { Person } from './common/Person'
 import { SafeParseReturnType, ZodError } from 'zod'
 
 export default function PersonForm() {
 	const [name, setName] = useState('')
-	const personQuery = trpc.getPersons.useQuery();
-	const personMutation = trpc.addPerson.useMutation()
+	const personQuery = trpcClient.getPersons.useQuery();
+	const personMutation = trpcClient.addPerson.useMutation()
 
 	return (
 		<div>
@@ -42,5 +42,5 @@ export default function PersonForm() {
 }
 
 function stringifyZodError<T>(error: ZodError<T>): string {
-	return error.errors.map(error => error.message).join(', ')
+	return error.errors.map(error => `${error.path}: ${error.message}`).join(', ')
 }

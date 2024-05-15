@@ -131,12 +131,6 @@
 			"to": {
 				"path": [
 					{
-						"boxId": "81dmr3sflto",
-						"boxName": "utils",
-						"x": 50,
-						"y": 52
-					},
-					{
 						"boxId": "r3q90f0jqg8",
 						"boxName": "trpc.ts",
 						"x": 50,
@@ -162,12 +156,6 @@
 			},
 			"to": {
 				"path": [
-					{
-						"boxId": "81dmr3sflto",
-						"boxName": "utils",
-						"x": 50,
-						"y": 52
-					},
 					{
 						"boxId": "r3q90f0jqg8",
 						"boxName": "trpc.ts",
