@@ -1,9 +1,9 @@
 {
 	"id": "sctglon8joo",
 	"x": 8,
-	"y": 48,
+	"y": 12,
 	"width": 84,
-	"height": 48,
+	"height": 84,
 	"links": [
 		{
 			"id": "linkhtf0ugq7dfg",
@@ -101,8 +101,8 @@
 					{
 						"boxId": "ppu7ai60mfg",
 						"boxName": "common",
-						"x": 50,
-						"y": 52
+						"x": 24,
+						"y": 50
 					},
 					{
 						"boxId": "a9osetffo1g",

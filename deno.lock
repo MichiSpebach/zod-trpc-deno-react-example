@@ -2,14 +2,20 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:@trpc/server": "npm:@trpc/server@10.45.2",
-      "npm:@trpc/server@^10.45": "npm:@trpc/server@10.45.2",
+      "npm:@trpc/client": "npm:@trpc/client@10.45.1_@trpc+server@10.45.1",
+      "npm:@trpc/server": "npm:@trpc/server@10.45.1",
       "npm:cors@^2.8": "npm:cors@2.8.5",
       "npm:zod": "npm:zod@3.22.4"
     },
     "npm": {
-      "@trpc/server@10.45.2": {
-        "integrity": "sha512-wOrSThNNE4HUnuhJG6PfDRp4L2009KDVxsd+2VYH8ro6o/7/jwYZ8Uu5j+VaW+mOmc8EHerHzGcdbGNQSAUPgg==",
+      "@trpc/client@10.45.1_@trpc+server@10.45.1": {
+        "integrity": "sha512-nVbAk1xpIiI64WgzXGgfxPOGgHoYvffn1IsjV1D/Ri7DL4BKuo2qtZ7UQ+OuHkzH2M8j4ikSVBDpk545fOdvpw==",
+        "dependencies": {
+          "@trpc/server": "@trpc/server@10.45.1"
+        }
+      },
+      "@trpc/server@10.45.1": {
+        "integrity": "sha512-KOzBEVaHW9IxEedUP9E50y0tYxAuvlzyjn80Bpemw4rcNbT4WtJnhkFPUY+qDJl7Crt3B/oY2qMgSxVWi9toLg==",
         "dependencies": {}
       },
       "cors@2.8.5": {

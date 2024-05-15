@@ -6,45 +6,6 @@
 	"height": 100,
 	"links": [
 		{
-			"id": "linksfspe70b00o",
-			"from": {
-				"path": [
-					{
-						"boxId": "51u27jsd8lo",
-						"boxName": "scripts",
-						"x": 50,
-						"y": 70
-					},
-					{
-						"boxId": "qmnu58bc9f",
-						"boxName": "greetAll.ts",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"to": {
-				"path": [
-					{
-						"boxId": "18qf3fumeog",
-						"boxName": "backend",
-						"x": 74,
-						"y": 26
-					},
-					{
-						"boxId": "5e1v3demdbo",
-						"boxName": "server.ts",
-						"x": 50,
-						"y": 50
-					}
-				]
-			},
-			"tags": [
-				"autoMaintained",
-				"http"
-			]
-		},
-		{
 			"id": "linkesvln27v97",
 			"from": {
 				"path": [
@@ -62,7 +23,7 @@
 						"boxId": "51u27jsd8lo",
 						"boxName": "scripts",
 						"x": 50,
-						"y": 52
+						"y": 36
 					},
 					{
 						"boxId": "qmnu58bc9f",
@@ -204,8 +165,8 @@
 					{
 						"boxId": "18qf3fumeog",
 						"boxName": "backend",
-						"x": 74,
-						"y": 46
+						"x": 54,
+						"y": 30
 					},
 					{
 						"boxId": "5e1v3demdbo",
@@ -227,7 +188,7 @@
 					{
 						"boxId": "18qf3fumeog",
 						"boxName": "backend",
-						"x": 70,
+						"x": 54,
 						"y": 30
 					},
 					{
@@ -243,20 +204,20 @@
 					{
 						"boxId": "k0hevj5t2e",
 						"boxName": "frontend",
-						"x": 81.28,
-						"y": 87.667
+						"x": 63.104,
+						"y": 79.2
 					},
 					{
 						"boxId": "sctglon8joo",
 						"boxName": "src",
-						"x": 84,
-						"y": 82.64
+						"x": 65.6,
+						"y": 80
 					},
 					{
 						"boxId": "ppu7ai60mfg",
 						"boxName": "common",
-						"x": 50,
-						"y": 52
+						"x": 24,
+						"y": 50
 					},
 					{
 						"boxId": "a9osetffo1g",
@@ -269,6 +230,96 @@
 			"tags": [
 				"autoMaintained"
 			]
+		},
+		{
+			"id": "link76lr1535moo",
+			"from": {
+				"path": [
+					{
+						"boxId": "51u27jsd8lo",
+						"boxName": "scripts",
+						"x": 100,
+						"y": 60
+					},
+					{
+						"boxId": "nodeip522gq3rpg",
+						"boxName": "nodenodeip522gq3rpg",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "18qf3fumeog",
+						"boxName": "backend",
+						"x": 70,
+						"y": 30
+					},
+					{
+						"boxId": "5e1v3demdbo",
+						"boxName": "server.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"http"
+			]
+		},
+		{
+			"id": "link4gj3iu05avo",
+			"from": {
+				"path": [
+					{
+						"boxId": "51u27jsd8lo",
+						"boxName": "scripts",
+						"x": 72,
+						"y": 28
+					},
+					{
+						"boxId": "qql9mancn4",
+						"boxName": "listPersons.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"to": {
+				"path": [
+					{
+						"boxId": "k0hevj5t2e",
+						"boxName": "frontend",
+						"x": 63.104,
+						"y": 79.2
+					},
+					{
+						"boxId": "sctglon8joo",
+						"boxName": "src",
+						"x": 65.6,
+						"y": 80
+					},
+					{
+						"boxId": "ppu7ai60mfg",
+						"boxName": "common",
+						"x": 24,
+						"y": 50
+					},
+					{
+						"boxId": "a9osetffo1g",
+						"boxName": "Person.ts",
+						"x": 50,
+						"y": 50
+					}
+				]
+			},
+			"tags": [
+				"autoMaintained",
+				"hidden"
+			]
 		}
 	],
 	"nodes": [],
@@ -277,7 +328,7 @@
 	"linkTags": [
 		{
 			"name": "autoMaintained",
-			"count": 15,
+			"count": 18,
 			"appearance": {}
 		},
 		{
@@ -291,14 +342,21 @@
 			"name": "documentation",
 			"count": 6,
 			"appearance": {
-				"color": "purple"
+				"color": "green"
 			}
 		},
 		{
 			"name": "http",
-			"count": 2,
+			"count": 4,
 			"appearance": {
 				"color": "magenta"
+			}
+		},
+		{
+			"name": "hidden",
+			"count": 1,
+			"appearance": {
+				"mode": "hidden"
 			}
 		}
 	],
