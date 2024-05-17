@@ -11,6 +11,7 @@
         "./node_modules/*"
       ]
     },
+    "allowImportingTsExtensions": true,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
