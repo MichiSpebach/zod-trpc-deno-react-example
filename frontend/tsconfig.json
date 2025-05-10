@@ -7,8 +7,8 @@
       "esnext"
     ],
     "paths": {
-      "npm:*" : [
-        "./node_modules/*"
+      "npm:@trpc/server" : [
+        "./node_modules/@trpc/server"
       ]
     },
     "allowImportingTsExtensions": true,
