@@ -1,46 +1,56 @@
-import { useState } from 'react'
 import { trpcClient } from './trpcClient'
 import { Person } from './common/Person'
-import { SafeParseReturnType, ZodError } from 'zod'
+import { FieldError, useForm } from 'react-hook-form'
+import { zodResolver } from '@hookform/resolvers/zod'
 
 export default function PersonForm() {
-	const [name, setName] = useState('')
 	const personQuery = trpcClient.getPersons.useQuery();
 	const personMutation = trpcClient.addPerson.useMutation()
 
+	const {
+		register,
+		handleSubmit,
+		reset,
+		formState: { errors, touchedFields, dirtyFields },
+	} = useForm({
+		resolver: zodResolver(Person),
+		mode: 'all'
+	})
+
 	return (
-		<div>
+		<>
 			{personQuery.isSuccess
 				? personQuery.data.map(person => <div>{person.name}</div>)
 				: <div>{personQuery.error?.message ?? personQuery.status}</div>
 			}
-			<input placeholder='name' value={name} onChange={event => setName(event.target.value)}/>
-			<button onClick={addPerson}>Add</button>
-			{personMutation.isPending && personMutation.status}
-			{buildTip()}
-		</div>
+			<form onSubmit={handleSubmit(person => addPerson(person))}>
+				<input placeholder='name' {...register('name')}/>
+				<div>{(touchedFields.name || dirtyFields.name) && buildTip(errors.name)}</div>
+				<input type='submit' value='Add' />
+				{personMutation.isPending && personMutation.status}
+			</form>
+		</>
 	)
 
-	async function addPerson(): Promise<void> {
+	async function addPerson(person: Person): Promise<void> {
 		try {
-			await personMutation.mutateAsync({name})
+			await personMutation.mutateAsync(person)
+			reset()
+			personQuery.refetch()
 		} catch (error: unknown) {
 			// handled globally
 			//alert(error)
 			return
 		}
-		setName('')
-		personQuery.refetch()
 	}
 
-	function buildTip(): JSX.Element {
-		const parseResult: SafeParseReturnType<Person, Person> = Person.safeParse({name})
-		return parseResult.success
-			? <div style={{color: 'green'}}>ok</div>
-			: <div style={{color: 'red'}}>{stringifyZodError(parseResult.error)}</div>
+	function buildTip(error: FieldError|undefined): JSX.Element {
+		return error
+			? <div style={{color: 'red'}}>{stringifyZodError(error)}</div>
+			: <div style={{color: 'green'}}>ok</div>
 	}
 }
 
-function stringifyZodError<T>(error: ZodError<T>): string {
-	return error.errors.map(error => `${error.path}: ${error.message}`).join(', ')
+function stringifyZodError(error: FieldError): string {
+	return String(error.message)
 }
