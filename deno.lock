@@ -1,48 +1,42 @@
 {
-  "version": "3",
-  "packages": {
-    "specifiers": {
-      "npm:@trpc/client": "npm:@trpc/client@10.45.1_@trpc+server@10.45.1",
-      "npm:@trpc/server": "npm:@trpc/server@10.45.1",
-      "npm:cors@^2.8": "npm:cors@2.8.5",
-      "npm:zod": "npm:zod@3.22.4"
+  "version": "5",
+  "specifiers": {
+    "npm:@trpc/client@*": "10.45.1_@trpc+server@10.45.1",
+    "npm:@trpc/server@*": "10.45.1",
+    "npm:cors@^2.8.0": "2.8.5",
+    "npm:zod@*": "4.1.12",
+    "npm:zod@4.1.12": "4.1.12"
+  },
+  "npm": {
+    "@trpc/client@10.45.1_@trpc+server@10.45.1": {
+      "integrity": "sha512-nVbAk1xpIiI64WgzXGgfxPOGgHoYvffn1IsjV1D/Ri7DL4BKuo2qtZ7UQ+OuHkzH2M8j4ikSVBDpk545fOdvpw==",
+      "dependencies": [
+        "@trpc/server"
+      ]
     },
-    "npm": {
-      "@trpc/client@10.45.1_@trpc+server@10.45.1": {
-        "integrity": "sha512-nVbAk1xpIiI64WgzXGgfxPOGgHoYvffn1IsjV1D/Ri7DL4BKuo2qtZ7UQ+OuHkzH2M8j4ikSVBDpk545fOdvpw==",
-        "dependencies": {
-          "@trpc/server": "@trpc/server@10.45.1"
-        }
-      },
-      "@trpc/server@10.45.1": {
-        "integrity": "sha512-KOzBEVaHW9IxEedUP9E50y0tYxAuvlzyjn80Bpemw4rcNbT4WtJnhkFPUY+qDJl7Crt3B/oY2qMgSxVWi9toLg==",
-        "dependencies": {}
-      },
-      "cors@2.8.5": {
-        "integrity": "sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==",
-        "dependencies": {
-          "object-assign": "object-assign@4.1.1",
-          "vary": "vary@1.1.2"
-        }
-      },
-      "object-assign@4.1.1": {
-        "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
-        "dependencies": {}
-      },
-      "vary@1.1.2": {
-        "integrity": "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==",
-        "dependencies": {}
-      },
-      "zod@3.22.4": {
-        "integrity": "sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==",
-        "dependencies": {}
-      }
+    "@trpc/server@10.45.1": {
+      "integrity": "sha512-KOzBEVaHW9IxEedUP9E50y0tYxAuvlzyjn80Bpemw4rcNbT4WtJnhkFPUY+qDJl7Crt3B/oY2qMgSxVWi9toLg=="
+    },
+    "cors@2.8.5": {
+      "integrity": "sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==",
+      "dependencies": [
+        "object-assign",
+        "vary"
+      ]
+    },
+    "object-assign@4.1.1": {
+      "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg=="
+    },
+    "vary@1.1.2": {
+      "integrity": "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg=="
+    },
+    "zod@4.1.12": {
+      "integrity": "sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ=="
     }
   },
-  "remote": {},
   "workspace": {
     "dependencies": [
-      "npm:zod"
+      "npm:zod@4.1.12"
     ]
   }
 }
